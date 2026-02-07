@@ -136,10 +136,6 @@ if st.button("Predict Topic"):
             unsafe_allow_html=True
         )
 
-        # Confidence Chart
-        st.subheader("📊 Topic Confidence")
-        st.bar_chart(prob[0])
-
 # ------------------ FOOTER ------------------
 st.markdown("---")
 st.caption("Built with ❤️ using NLP & LDA Topic Modeling")
